@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Anime_Launch {
 	
-	@Bean
+	
 	public static void main( String[]args)
 	{
 		ApplicationContext ac = new ClassPathXmlApplicationContext("app.xml");
