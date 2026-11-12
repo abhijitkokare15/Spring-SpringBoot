@@ -1,0 +1,20 @@
+package com.java;
+
+public class AnimeLaunch extends Naruto_Shippuden {
+	
+	
+	
+	public static void main(String[]args)
+	{
+		
+//		Naruto_Shippuden n = new Naruto_Shippuden();
+//		   n.launch();
+		AnimeLaunch al = new AnimeLaunch();
+		al.launch();
+		  
+//		
+		
+		
+	}
+
+}

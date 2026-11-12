@@ -1,0 +1,12 @@
+package com.spring;
+
+@component
+public class Anime_Launch {
+
+	public Anime_Launch() {
+		super();
+		System.out.println("THis is the anime launch");
+	}
+
+
+}

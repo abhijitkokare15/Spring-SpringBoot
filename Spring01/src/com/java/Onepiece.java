@@ -1,0 +1,11 @@
+//package com.java;
+//
+//public class Onepiece implements Tvtokeyo{
+//	
+//
+//	public void launch() {
+//	   System.out.println("The One piece   is arrived");
+//	}
+//
+//
+//}

@@ -1,0 +1,15 @@
+
+public class Anime_launch {
+
+	
+	private TvTokeyo tv;
+	
+	
+	public void telecast ()
+	{
+	     tv.launch();
+		
+	}
+}
+
+

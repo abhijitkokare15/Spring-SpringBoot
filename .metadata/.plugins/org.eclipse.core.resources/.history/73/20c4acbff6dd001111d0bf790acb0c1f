@@ -1,0 +1,14 @@
+
+public class DeathNote implements TvTokeyo {
+
+	public DeathNote() {
+		super();
+		
+		
+	}
+
+	public void launch() {
+	   System.out.println("Death note is released");
+	}
+
+}

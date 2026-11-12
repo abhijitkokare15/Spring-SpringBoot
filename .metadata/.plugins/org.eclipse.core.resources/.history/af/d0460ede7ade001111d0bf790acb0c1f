@@ -1,0 +1,25 @@
+package snippet;
+
+public class Snippet {
+	<?xml version="1.0" encoding="UTF-8"?>
+	<beans xmlns="http://springframework.org"
+	       xmlns:xsi="http://w3.org"
+	       xmlns:context="http://springframework.org"
+	       xsi:schemaLocation="
+	           http://springframework.org
+	           https://springframework.org
+	           http://springframework.org
+	           https://springframework.org">
+	
+	    <!-- 1. Enables @Autowired, @PostConstruct, @PreDestroy, @Resource on XML-defined beans -->
+	    <context:annotation-config/>
+	
+	    <!-- 2. Scans packages for @Component, @Service, @Repository, @Controller (also includes annotation-config) -->
+	    <context:component-scan base-package="com.example.myapp"/>
+	
+	    <!-- 3. Standard XML bean definitions can still coexist here -->
+	    <bean id="myLegacyService" class="com.example.myapp.LegacyService"/>
+	
+	</beans>
+}
+

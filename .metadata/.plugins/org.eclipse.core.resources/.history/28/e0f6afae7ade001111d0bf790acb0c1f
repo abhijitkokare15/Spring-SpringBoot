@@ -1,0 +1,11 @@
+package com.spring;
+
+@component
+public class Naruto {
+	public Naruto()
+	{
+		System.out.println("The naruto is comming");
+		
+	}
+
+}

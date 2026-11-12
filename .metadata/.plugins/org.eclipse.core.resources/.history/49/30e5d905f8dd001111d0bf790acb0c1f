@@ -1,0 +1,17 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Anine_Launch {
+
+	public static void main( String [] args)
+	{
+		ApplicationContext ac = new ClassPathXmlApplicationContext("app.xml")
+		
+	}
+
+	public Anine_Launch() {
+		super();
+		System.out.println("THe new anime is comming...");
+		
+	}
+}

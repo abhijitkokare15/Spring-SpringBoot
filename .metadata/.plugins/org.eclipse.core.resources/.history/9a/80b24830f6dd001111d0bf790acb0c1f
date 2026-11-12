@@ -1,0 +1,10 @@
+
+public class DeathNote implements TvTokeyo {
+
+	@Override
+	public void launch() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

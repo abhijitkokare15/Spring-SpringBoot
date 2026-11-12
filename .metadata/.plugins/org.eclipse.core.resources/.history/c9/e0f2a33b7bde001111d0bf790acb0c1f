@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://springframework.org"
+       xmlns:xsi="http://w3.org"
+       xmlns:context="http://springframework.org"
+       xsi:schemaLocation="
+           http://springframework.org
+           https://springframework.org
+           http://springframework.org
+           https://springframework.org">
+
+    
+    <context:annotation-config/>
+
+    <context:component-scan base-package="com.spring"/>
+
+</beans>
