@@ -1,9 +1,0 @@
-package com.java;
-
-public class Naruto_Shippuden {
-	
-	public void launch() {
-	   System.out.println("The Naruto  is arrived");
-	}
-
-}
